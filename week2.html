@@ -1,0 +1,83 @@
+<!doctype html>  
+<html lang="en">
+
+<!--
+AVF
+James Floyd II 
+July 13, 2012
+-->
+
+<head>
+
+	<meta charset="utf-8">
+	
+	<title>Christmas List App</title>
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Mobile IE needs ClearType for smoothing fonts -->
+	<meta http-equiv="cleartype" content="on">
+	
+	<!-- StyleSheets under here -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+	<link rel="stylesheet" href="css/styles.css"/>
+	<style type="text/css">
+		body {
+    		background: url(images/grey.jpeg);
+   		 	background-repeat:repeat-y;
+    		background-position:center center;
+    		background-attachment:scroll;
+    		background-size:100% 100%;
+			}
+		.ui-page {
+    		background: transparent;
+			}
+		.ui-content{
+    		background: transparent;
+			}
+	</style>
+	
+	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="js/libs/modernizr.custom.min.js"></script>
+
+</head>
+	<body>
+		<div data-role="page" id="home" data-theme="d">
+			<div data-role="header" data-position="fixed" data-theme="d">
+				
+				<h1><img  src="images/logo.png" /> Christmas List - AVF Demo</h1>
+			</div> <!-- Header ends -->
+						
+			<div data-role="content">
+
+			<h2>Week 2 Discussion</h2>
+				<h4>What types of native features (on Android and iOS devices) would you be able to implement with the use of HTML/CSS/JS only?</h4>
+				<p>With the help of PhoneGap you can implement the accelerometer, camera, compass, contacts, local storage, and notifications.</p>
+				
+				<h4>For your CRUD app revision and/or Demo App components, which of these do you think you will implement?</h4>
+				<p>I will be using the Geo, Alerts, Contacts and Camera features.</p>
+				
+				<h4>Briefly describe some past 'lessons learned' regarding workflow as it relates to research, design, development, etc.</h4>
+				<p>A lesson that I have learned is the importance of using a calendar. I have issues with time management and I work best when I follow a strict schedule. Lynda.com has some useful videos on Time Management that have helped me out a lot.</p>
+				
+				<h4>Please describe any design intentions you may have for the AVF Demo app and the revised/new version of your CRUD app.</h4>
+				<p>I believe my app is not as visually pleasing as I would like and usability needs to be improved. Those are the main things I would like to tackle this month. Also I need to get my app working properly with local storage. Adding the functionality of Camera and Contacts will greatly improve my app.</p>
+			
+			<div data-role="footer" data-position="fixed">		
+				<div data-role="navbar">
+				<ul>
+					<li><a href="index.html" data-role="button" data-icon="home" data-ajax="false" >Home</a></li>
+					<li><a href="http://victory0901.github.com/AVF" data-role="button" data-icon="info">GH-Pages</a></li>
+				</ul>
+				</div><!-- Navbar ends -->
+			</div><!-- Footer ends -->
+		</div> <!-- Home Page Ends -->
+			
+	<!-- JavaScript under here -->
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+	</body>
+</html>
