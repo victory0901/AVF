@@ -1,0 +1,74 @@
+<!doctype html>  
+<html lang="en">
+
+<!--
+AVF
+James Floyd II 
+July 13, 2012
+-->
+
+<head>
+
+	<meta charset="utf-8">
+	
+	<title>Christmas List App</title>
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Mobile IE needs ClearType for smoothing fonts -->
+	<meta http-equiv="cleartype" content="on">
+	
+	<!-- StyleSheets under here -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+	<link rel="stylesheet" href="css/styles.css"/>
+	<script type="text/javascript" charset="utf-8" src="libs/cordova-1.8.1.js"></script>
+	<style type="text/css">
+		body {
+    		background: url(images/grey.jpeg);
+   		 	background-repeat:repeat-y;
+    		background-position:center center;
+    		background-attachment:scroll;
+    		background-size:100% 100%;
+			}
+		.ui-page {
+    		background: transparent;
+			}
+		.ui-content{
+    		background: transparent;
+			}
+	</style>
+	
+	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="js/libs/modernizr.custom.min.js"></script>
+
+</head>
+	<body>
+		<div data-role="page" id="home" data-theme="d" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed" data-theme="d">
+				
+				<h1><img  src="images/logo.png" /> Christmas List - AVF Demo</h1>
+			</div> <!-- Header ends -->
+						
+			<div data-role="content">
+
+			<a href="#" id="geo" data-role="button" data-ajax="false">Find Location</a>
+			
+			<div data-role="footer" data-position="fixed">		
+				<div data-role="navbar">
+				<ul>
+					<li><a href="index.html" data-role="button" data-icon="home" data-ajax="false" >Home</a></li>
+					<li><a href="http://victory0901.github.com/AVF" data-role="button" data-icon="info">GH-Pages</a></li>
+				</ul>
+				</div><!-- Navbar ends -->
+			</div><!-- Footer ends -->
+		</div> <!-- Home Page Ends -->
+			
+	<!-- JavaScript under here -->
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+	
+	</body>
+</html>
