@@ -8,7 +8,6 @@
 	
 	$("#note").on('click', function() {
     	showAlert();
-    	makeBeep();
     });
     
     // Dismiss Alert
@@ -25,10 +24,6 @@
             'Done'                  // buttonName
         );
     }
-    
-    // Make beep sound
-    function makeBeep() {
-    navigator.notification.beep(1);
-    }
+
 
 
