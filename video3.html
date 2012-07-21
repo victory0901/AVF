@@ -24,6 +24,7 @@ July 13, 2012
 	<!-- StyleSheets under here -->
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
 	<link rel="stylesheet" href="css/styles.css"/>
+	<script type="text/javascript" charset="utf-8" src="js/libs/cordova-1.8.1.js"></script>
 	<style type="text/css">
 		body {
     		background: url(images/grey.jpeg);
@@ -45,7 +46,7 @@ July 13, 2012
 
 </head>
 	<body>
-		<div data-role="page" id="home" data-theme="d">
+		<div data-role="page" id="home" data-theme="d" data-add-back-btn="true">
 			<div data-role="header" data-position="fixed" data-theme="d">
 				
 				<h1><img  src="images/logo.png" /> Christmas List - AVF Demo</h1>
@@ -53,32 +54,10 @@ July 13, 2012
 						
 			<div data-role="content">
 
-			<h2>CRUD App</h2>
-			<a href="index2.html" data-role="button" data-ajax="false" >Original CRUD App</a>
-
-			<h2>iOS/Android Native Feature Demos</h2>
-			<a href="alert.html" data-role="button" data-ajax="false">Notifications</a>
-			<a href="geo.html" data-role="button" data-ajax="false">Geo</a>
-
-			<h2>iOS or Android Native Features Demos</h2>
-			<a href="compass.html" data-role="button" data-ajax="false">Compass</a>
-			<a href="accel.html" data-role="button" data-ajax="false">Accelerometer</a>
-
-			<h2>Research</h2>
-			<a href="week1.html" data-role="button" data-ajax="false">Week 1 Discussion</a>
-			<a href="week2.html" data-role="button" data-ajax="false">Week 2 Discussion</a>
-			<a href="week3.html" data-role="button" data-ajax="false">Week 3 Discussion</a>
-			
-			<h2>Reflection Videos</h2>
-			<a href="http://screencast.com/t/H1kDm4ghQeH" data-role="button" data-ajax="false">Week 1</a>
-			<a href="video2.html" data-role="button" data-ajax="false">Week 2</a>
-			<a href="video3.html" data-role="button" data-ajax="false">Week 3</a>
-			<a href="#" data-role="button" data-ajax="false">Week 4</a>
-
-			
-			<h1>About Developer</h1>
-			<p>James Floyd<p>
-			<p>AVF 1207<p>
+			<video  controls="controls">
+				<source src="week3.mp4" />
+				<source src="week3.webm" type='video/webm; codecs="vp8, vorbis"' />
+			</video>
 			
 			<div data-role="footer" data-position="fixed">		
 				<div data-role="navbar">
@@ -93,6 +72,7 @@ July 13, 2012
 	<!-- JavaScript under here -->
 	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
-	
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script type="text/javascript" src="js/geo.js"></script>
 	</body>
 </html>
