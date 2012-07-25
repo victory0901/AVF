@@ -25,11 +25,11 @@ li{
 
 
 body {
-    background: url(images/grey.jpeg);
-    background-repeat:repeat-y;
-    background-position:center center;
-    background-attachment:scroll;
-    background-size:100% 100%;
+    background: url(../images/grey.jpeg) !important;
+    background-repeat:repeat-y !important;
+    background-position:center center !important;
+    background-attachment:scroll !important;
+    background-size:100% 100% !important;
 }
 .ui-page {
     background: transparent;
