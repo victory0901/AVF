@@ -25,7 +25,7 @@ li{
 
 
 body {
-    background: url(../images/grey.jpeg) !important;
+    background: url(../images/grey2.jpeg) !important;
     background-repeat:repeat-y !important;
     background-position:center center !important;
     background-attachment:scroll !important;
@@ -70,4 +70,13 @@ label.error{
 #map_canvas { 
 	width: 100%;
     height: 400px;
+}
+
+#imgCompass {
+	position:absolute;
+	z-index:-1;
+}
+#imgNeedle {
+	position:relative;
+	left: 77px;
 }
