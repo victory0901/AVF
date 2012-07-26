@@ -77,4 +77,5 @@
             } else {
                 alert('Geolocation not supported.')
             }
-        }
+        } 
+    
