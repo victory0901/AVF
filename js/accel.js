@@ -1,7 +1,8 @@
+
 document.addEventListener( "deviceready", function(){
     var watchId = 0;
     
-    $("#butWatch").on("touchstart", function(){
+    $("#butWatch").on('click', function(){
         
         if( watchId === 0)
         {            
