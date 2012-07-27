@@ -1,0 +1,61 @@
+<!doctype html>  
+<html lang="en">
+
+<!--
+AVF
+James Floyd II 
+July 13, 2012
+-->
+
+<head>
+
+	<meta charset="utf-8">
+	
+	<title>Christmas List App</title>
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Mobile IE needs ClearType for smoothing fonts -->
+	<meta http-equiv="cleartype" content="on">
+	
+	<!-- StyleSheets under here -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+	<link rel="stylesheet" href="css/styles.css"/>
+	<script type="text/javascript" charset="utf-8" src="js/libs/cordova-1.8.1.js"></script>
+	
+	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="js/libs/modernizr.custom.min.js"></script>
+
+</head>
+	<body>
+		<div data-role="page" id="video4">
+			<div data-role="header" data-position="fixed" data-theme="d">
+				<h1><img  src="images/logo.png" /> Christmas List - Video Week 4</h1>
+				<a href="index.html" class="ui-btn-left" data-role="button" data-theme="d" data-icon="back">Back</a>
+			</div> <!-- Header ends -->	
+						
+			<div data-role="content">
+
+			<video  controls="controls">
+				<source src="week4.mp4" />
+				<source src="week4.webm" type='video/webm; codecs="vp8, vorbis"' />
+			</video>
+			
+			<div data-role="footer" data-position="fixed">		
+				<div data-role="navbar">
+				<ul>
+					<li><a href="index.html" data-role="button" data-icon="home" data-ajax="false" >Home</a></li>
+					<li><a href="http://victory0901.github.com/AVF" data-role="button" data-icon="info">GH-Pages</a></li>
+				</ul>
+				</div><!-- Navbar ends -->
+			</div><!-- Footer ends -->
+		</div> <!-- Home Page Ends -->
+			
+	<!-- JavaScript under here -->
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+	</body>
+</html>
